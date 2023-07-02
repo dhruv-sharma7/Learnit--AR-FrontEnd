@@ -11,11 +11,12 @@
   <body>
     <a-scene embedded arjs="trackingMethod: best;">
       <a-assets>
-        <a-asset-item id="model" src="frontend/Markers/A/Car_cartoon.gltf"></a-asset-item>
-        <a-asset-item id="marker" src="frontend/Markers/A/AA.patt"></a-asset-item>
+        <a-asset-item id="model" src="Markers/A/dog.gltf"></a-asset-item>
+        <a-asset-item id="marker" src="Markers/A/AA.patt"></a-asset-item>
+        
       </a-assets>
 
-      <a-marker preset="custom" type="pattern" url="frontend/Markers/A/AA.patt">
+      <a-marker preset="custom" type="pattern" url="Markers/A/AA.patt">
         <a-entity
           gltf-model="#model"
           scale="0.1 0.1 0.1"
